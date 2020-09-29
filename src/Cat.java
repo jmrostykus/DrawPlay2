@@ -52,5 +52,9 @@ public class Cat {
 		//Draw the nose
 		g2.setColor(Color.red);
 		g2.fillOval(catX+MOUTH_X+5, catY+MOUTH_Y-15, MOUTH_WIDTH/2, MOUTH_HEIGHT/2);
+		//Draw Hat
+		g2.setColor(Color.black);
+		g2.fillOval(catX, catY-40, HEAD_DIMENSION, HEAD_DIMENSION/2);
+		g2.fillOval(catX+25, catY-70, HEAD_DIMENSION/2, HEAD_DIMENSION*3/4);
 	}
 }
