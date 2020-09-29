@@ -49,5 +49,8 @@ public class Cat {
 		// Meow text appears below cat head, +10 places below 
 		// so it doesn't overlap the drawing
 		g2.drawString("Bruh", catX, catY+HEAD_DIMENSION+10);	
+		//Draw the nose
+		g2.setColor(Color.red);
+		g2.fillOval(catX+MOUTH_X+5, catY+MOUTH_Y-15, MOUTH_WIDTH/2, MOUTH_HEIGHT/2);
 	}
 }
